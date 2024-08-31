@@ -1,0 +1,35 @@
+/* Navbar section Start */
+.navbar-brand .logo{
+    width: 200px;
+}
+.navbar ul li a{
+    color: rgb(94, 94, 94) !important;
+    margin: 10px;
+    padding: 5px 8px;
+    transition: .2s;
+    &:hover{
+        color: #fff !important;
+        background-color: #E31D2A;
+    }
+    &.active{
+        background-color: #E31D2A;
+        color: #fff !important;
+    }
+}
+/* navbar section End */
+
+/* Header Section Start */
+#header{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0.6)), url(../img/banner.jpg);
+    color: #fff;
+    padding: 200px 0;
+}
+/* Header Section End */
+
+/*  Food Manu Section Start */
+#menu .card img{
+    height: 14rem;
+    width: auto;
+}
+}
+/*  Food Manu Section End */
